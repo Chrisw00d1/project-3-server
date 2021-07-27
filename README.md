@@ -50,7 +50,7 @@ You can see the frontend [here](https://github.com/Chrisw00d1/project-3-client)
 
 <a name="planning"></a>
 ## Planning
-We made sure we spent a lot of time working on the white boarding so that we were all clear about the models that were needed for this project. We realised that we couldn't do too much with the frontend until we had the backend in place. So we decided that finishing that would be our. We pseudo coded all the models and the controllers that we would need so when we split up to work on it we all knew what things would be called and how they would work. Since we were now introduced to git branching it made it easier for us to do work in our own time as all the code was no longer stored on one person's computer. We still decided that during the day we would be in a call together so that we could ask for help when we needed it and discuss ideas with each other as well.
+We made sure we spent a lot of time working on the white boarding so that we were all clear about the models that were needed for this project. We realised that we couldn't do too much with the frontend until we had the backend in place. We pseudo coded all the models and the controllers that we would need so when we split up to work on it we all knew what things would be called and how they would work. Since we were now introduced to git branching it made it easier for us to do work in our own time as all the code was no longer stored on one person's computer. We still decided that during the day we would be in a call together so that we could ask for help when we needed it and discuss ideas with each other as well.
 
 <a name="backend"></a>
 ## Backend
