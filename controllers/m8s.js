@@ -6,7 +6,6 @@ import bcrypt from 'bcrypt'
 
 async function register(req, res, next) {
   try {
-    console.log('I am APPEARING IN THE CORRECT AREA')
     const m8 = await M8.findOne({ email: req.body.email })
     console.log(m8)
     if (m8) {
@@ -97,22 +96,16 @@ async function index(req, res, next) {
 
 async function remove(req, res, next) {
   try {
-
     const currentUserId = req.currentM8._id
-
     const m8 = await M8.findById(req.params.id)
-
     if (!m8) {
       throw new NotFound('M8 not found.')
     }
-
     if (!currentUserId.equals(m8._id)) {
       throw new NotYours('ThIs IsNT YoUr PrOfIlE!!!')
     }
-
     m8.deleted = true
     await m8.save()
-
     res.sendStatus(204)
 
   } catch (e) {
