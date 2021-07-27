@@ -19,11 +19,11 @@
 
 <a name="overview"></a>
 ## Overview
-The third project had us split into groups of three where we had 10 days to build a full stack app. We were introduced to branching on git and how to deal with merge issues for the project. Our app is based around different food where users are able to share plates they have made with each other and can rate them.
+The third project had us split into groups of three where we had 10 days to build a full stack app. I worked with Devante and Dom for this project. We were introduced to branching on git and how to deal with merge issues for the project. Our app is based around different food where users are able to share plates they have made with each other and can rate them.
 
 You can add a plate [here](https://r8-my-pl8.netlify.app/)
 
-You can see the frontend [here](https://github.com/Chrisw00d1/project-3-client)
+You can see the backend [here](https://github.com/Chrisw00d1/project-3-server)
 
 <a name="brief"></a>
 ## Brief
@@ -50,11 +50,11 @@ You can see the frontend [here](https://github.com/Chrisw00d1/project-3-client)
 
 <a name="planning"></a>
 ## Planning
-We made sure we spent a lot of time working on the white boarding so that we were all clear about the models that were needed for this project. Once that was done we all worked on the backend to make sure that we could get that working as soon as possible.
+We made sure we spent a lot of time working on the white boarding so that we were all clear about the models that were needed for this project. We realised that we couldn't do too much with the frontend until we had the backend in place. So we decided that finishing that would be our. We pseudo coded all the models and the controllers that we would need so when we split up to work on it we all knew what things would be called and how they would work. Since we were now introduced to git branching it made it easier for us to do work in our own time as all the code was no longer stored on one person's computer. We still decided that during the day we would be in a call together so that we could ask for help when we needed it and discuss ideas with each other as well.
 
 <a name="backend"></a>
 ## Backend
-When we started we split the work so that I was sorting out the data handling and the seeding initially so that we could test data with controllers and the views. With this I also set up how we connected the the Mongo database.  It was important that I added the correct information to the data, like giving the plates and owner, or the data would not load with Mongoose.
+When we started we split the work so that I was sorting out the data handling and the seeding initially so that we could test data with controllers and the views. With this I also set up how we connected the the Mongo database.  It was important that I added the correct information to the data, like giving the plates an owner, or the data would not load with Mongoose.
 
 ```js
 await connectToDb()
