@@ -23,7 +23,7 @@ The third project had us split into groups of three where we had 10 days to buil
 
 You can add a plate [here](https://r8-my-pl8.netlify.app/)
 
-You can see the frontend [here](https://github.com/Chrisw00d1/project-3-server)
+You can see the frontend [here](https://github.com/Chrisw00d1/project-3-client)
 
 <a name="brief"></a>
 ## Brief
