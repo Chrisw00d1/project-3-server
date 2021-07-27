@@ -228,5 +228,7 @@ Getting used to using git branching was the biggest lesson I learnt during this.
 <a name="contributors"></a>
 ## Contributors
 I worked with Devante and Dom for this project
+
 Devante’s GitHub can be found [here](https://github.com/dee912)
+
 Dom’s Github can be found [here](https://github.com/dominicreynolds97)
